@@ -8,7 +8,7 @@ public class Calculater {
 
             char op = in.next().trim().charAt(0);
             if (op == '+' || op == '-' || op == '%' || op == '/' || op == '*') {
-                System.out.println("Enter two numbers:");
+                System.out.println("Enter two numbers =");
                 int num1 = in.nextInt();
                 int num2 = in.nextInt();
 
@@ -36,7 +36,7 @@ public class Calculater {
             } else if (op == 'x' || op == 'X') {
                 break;
             } else {
-                System.out.println("invalid operation");
+                System.out.println("Syntax Error");
             }
 
             System.out.println(ans);
