@@ -8,7 +8,7 @@ public class Calculater {
 
             char op = in.next().trim().charAt(0);
             if (op == '+' || op == '-' || op == '%' || op == '/' || op == '*') {
-                System.out.println("Enter two numbers =");
+                System.out.println("Enter two numbers:");
                 int num1 = in.nextInt();
                 int num2 = in.nextInt();
 
