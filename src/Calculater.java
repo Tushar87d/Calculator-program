@@ -36,7 +36,7 @@ public class Calculater {
             } else if (op == 'x' || op == 'X') {
                 break;
             } else {
-                System.out.println("Syntax Error");
+                System.out.println("Syntax_Error");
             }
 
             System.out.println(ans);
